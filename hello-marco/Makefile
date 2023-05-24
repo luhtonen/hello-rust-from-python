@@ -9,6 +9,9 @@ rust-version:
 format:
 	cargo fmt --quiet
 
+format-check:
+	cargo fmt --quiet
+
 lint:
 	cargo clippy --quiet
 

@@ -8,6 +8,8 @@ $(SUBDIRS):
 
 format: $(SUBDIRS)
 
+format-check: $(SUBDIRS)
+
 lint: $(SUBDIRS)
 
 test: $(SUBDIRS)
