@@ -8,10 +8,8 @@ $(SUBDIRS):
 
 format: $(SUBDIRS)
 
-format-check: $(SUBDIRS)
-
 lint: $(SUBDIRS)
 
 test: $(SUBDIRS)
 
-build-release: $(SUBDIRS)
+release: $(SUBDIRS)

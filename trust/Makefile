@@ -9,9 +9,6 @@ rust-version:
 format:
 	cargo fmt --quiet
 
-format-check:
-	cargo fmt --quiet
-
 lint:
 	cargo clippy --quiet
 
@@ -21,7 +18,7 @@ test:
 run:
 	cargo run
 
-build-release:
+release:
 	cargo build --release
 
 all: format lint test
