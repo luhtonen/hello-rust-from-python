@@ -1,4 +1,4 @@
-SUBDIRS := "hello-marco" "calc" "trust"
+SUBDIRS := "hello-marco" "calc" "trust" "sqlite-hf"
 
 all: $(SUBDIRS)
 $(SUBDIRS):
